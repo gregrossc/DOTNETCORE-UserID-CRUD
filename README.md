@@ -24,7 +24,7 @@ Setting Up CRUD
 10. Create new controller, MVC Controller with views, using Entity Framework. Use table as Model class, name controller as TableController, Add.
 11.In Startup.cs add the following 2 lines in Configure Services below:
 
-string connectionString = Configuration.GetConnectionString("DefaultConnection");
+string connectionString = Configuration.GetConnectionString("DefaultConnection"); <br>
 services.AddDbContext<pbitjukzContext>(context => context.UseNpgsql(connectionString));
 
 
