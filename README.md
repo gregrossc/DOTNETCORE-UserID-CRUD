@@ -12,7 +12,7 @@ Setting Up Asp.net Core User Tables
 4. in Startup.cs under ConfigureServices(IServiceCollection services) change  options.UseSqlServer to options.UseNpgsql
 5. Scaffold via package manager console: Scaffold-DbContext "Server=lallah.db.elephantsql.com;Database=pbitjukz;Port=5432;User Id=pbitjukz;Password=PASSWORD;Ssl Mode=Require;Trust Server Certificate=true;" Npgsql.EntityFrameworkCore.PostgreSQL -o Models
 6. Delete the migrations folder
-7. Rename the Table __EFMigrationsHistory to anything
+7. Rename the Table __EFMigrationsHistory to anything (Inside PostgreSQL)
 8. Run the following commands in package manager console: <br>
 Add-Migration InitialCreate -Context ApplicationDbContext <br>
 Update-Database -Context ApplicationDbContext
