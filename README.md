@@ -21,7 +21,7 @@ Update-Database -Context ApplicationDbContext
 Setting Up CRUD
 ===============
 9. Create your table for CRUD data in postgresql
-10. Create new controller, MVC Controller with views, using Entity Framework. Use table as Model class, name controller as TableController, Add.
+10. Create new controller, MVC Controller with views, using Entity Framework. Use table as Model class, name controller as TableController, Add. <br>
 11.In Startup.cs add the following 2 lines in Configure Services below:
 
 string connectionString = Configuration.GetConnectionString("DefaultConnection"); <br>
