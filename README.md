@@ -29,4 +29,3 @@ services.AddDbContext<pbitjukzContext>(context => context.UseNpgsql(connectionSt
 
 
 *DONE*
-![](renameTable.png)
