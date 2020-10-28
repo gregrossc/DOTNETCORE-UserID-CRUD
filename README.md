@@ -2,7 +2,7 @@
 Template starter files for User Identity &amp; CRUD functionality for future projects using PostgreSQL. The following example is a mock TRT clinic CRUD application.
 
 
-General Instructions for setting up/generating Asp.net Core Identity for PostgreSQL with CRUD functionality
+General Instructions for setting up/generating Asp.net Core Identity for PostgreSQL with CRUD functionality.
 
 Setting Up Asp.net Core User Tables
 ===================================
