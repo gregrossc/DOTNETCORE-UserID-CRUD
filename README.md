@@ -7,7 +7,7 @@ General Instructions for setting up/generating Asp.net Core Identity for Postgre
 Setting Up Asp.net Core User Tables
 ===================================
 1. App settings.js change Default Connection to Host;Database;Port;User Id;Password;ssl;cert; (ex. "Server=lallah.db.elephantsql.com;Database=pbitjukz;Port=5432;User Id=pbitjukz;Password=PASSWORD;Ssl Mode=Require;Trust Server Certificate=true;")
-2. Install the following Nuget Packages (Npgsql, Npgsql.EntityFrameworkCore.PostgreSQL, EFCore.NamingConventions, AspNetCore.Identity.EntityFrameworkCore, AspNetCore.Identity.UI, Microsoft.EntityFrameworkCore.Design, Microsoft.VisualStudio.Web.CodeGeneration.Design)
+2. Install the following Nuget Packages (Npgsql, Npgsql.EntityFrameworkCore.PostgreSQL, EFCore.NamingConventions, AspNetCore.Identity.UI, Microsoft.EntityFrameworkCore.Design, Microsoft.VisualStudio.Web.CodeGeneration.Design)
 3. Add Helper.cs to Models folder to format for Postgresql (View helper.cs in this repo for exact code)
 4. in Startup.cs under ConfigureServices(IServiceCollection services) change  options.UseSqlServer to options.UseNpgsql
 5. Scaffold via package manager console: Scaffold-DbContext "Server=lallah.db.elephantsql.com;Database=pbitjukz;Port=5432;User Id=pbitjukz;Password=PASSWORD;Ssl Mode=Require;Trust Server Certificate=true;" Npgsql.EntityFrameworkCore.PostgreSQL -o Models
