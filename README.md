@@ -1,5 +1,5 @@
 # ASPNETCORE-USERID-CRUD
-Template starter files for ASP .NET CORE User Identity &amp; CRUD (Create, Read, Update, Delete) functionality for projects using a PostgreSQL Database. The following example is a mock TRT clinic CRUD application.
+Template starter files for ASP .NET CORE User Identity &amp; CRUD (Create, Read, Update, Delete) functionality for projects using a PostgreSQL Database. The following example is a mock health clinic CRUD application.
 
 
 General Instructions for setting up/generating Asp.net Core Identity for PostgreSQL with CRUD functionality.
